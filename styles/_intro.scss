@@ -1,0 +1,20 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+$primary: #a86666;
+$bigFont: 4rem;
+
+
+html {
+    font-size: 62.5%;
+}
+
+@mixin flex($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}

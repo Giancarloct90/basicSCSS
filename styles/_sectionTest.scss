@@ -1,0 +1,25 @@
+.sectionTest {
+    color: $primary;
+    @include flex(column);
+
+    h2 {
+        font-size: $bigFont;
+    }
+
+    button {
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        background-color: #ac8989;
+        color: white;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: white;
+            color: #ac8989;
+            border: #ac8989 2px solid;
+        }
+    }
+
+}
